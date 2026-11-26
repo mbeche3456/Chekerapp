@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Palindrome Checker</string>
+    <string name="hero_subtitle">Words, numbers &amp; sentences — mirrored in an instant</string>
+    <string name="hero_image_cd">Purple geometric symmetry illustration representing palindromes</string>
+    <string name="search_icon_cd">Palindrome search icon</string>
+    <string name="what_is_palindrome_title">What is a Palindrome?</string>
+    <string name="what_is_palindrome_body">A palindrome is a word, number, or sentence that reads the same forwards and backwards — like "racecar", "12321", or "Madam, I\'m Adam".</string>
+    <string name="input_label">Enter a word, number, or sentence</string>
+    <string name="input_placeholder">e.g. racecar, 12321, or Madam, I\'m Adam</string>
+    <string name="clear_input_cd">Clear text</string>
+    <string name="voice_input_cd">Voice input</string>
+    <string name="voice_prompt">Say a word, number, or sentence</string>
+    <string name="voice_unavailable">Voice input is not available on this device. Please type your text instead.</string>
+    <string name="voice_no_result">No speech was captured. Please try again.</string>
+    <string name="mode_ignore_punctuation">Ignore spaces &amp; punctuation</string>
+    <string name="mode_exact_characters">Exact character match</string>
+    <string name="btn_check_palindrome">CHECK PALINDROME</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_about_us">About Us</string>
+    <string name="about_us_cd">Open About Us page</string>
+    <string name="btn_copy_result">Copy</string>
+    <string name="btn_share_result">Share</string>
+    <string name="copied_to_clipboard">Result copied to clipboard</string>
+    <string name="share_chooser_title">Share Palindrome Result</string>
+    <string name="result_is_palindrome">It is a Palindrome</string>
+    <string name="result_not_palindrome">It is Not a Palindrome</string>
+    <string name="result_palindrome_detail">Reads identically forwards and backwards.</string>
+    <string name="result_not_palindrome_detail">Forwards and backwards sequences do not match.</string>
+    <string name="label_forward">Forward</string>
+    <string name="label_backward">Backward</string>
+    <string name="friendly_empty_input">Please enter a word, number, or sentence first so we can check if it\'s a palindrome.</string>
+    <string name="friendly_no_alphanumeric">Please include at least one letter or number — punctuation and spaces alone cannot be checked.</string>
+    <string name="try_examples_title">Quick examples</string>
+    <string name="recent_checks_title">Recent checks</string>
+    <string name="empty_state_tip_title">Ready to test symmetry</string>
+    <string name="empty_state_tip_body">Type or speak any word, number, or sentence above, or tap an example chip to inspect how forwards and backwards reading compare.</string>
+    <string name="badge_palindrome">Palindrome</string>
+    <string name="badge_not_palindrome">Not a match</string>
+
+    <!-- Navigation & Top Bar -->
+    <string name="nav_checker">Checker</string>
+    <string name="nav_history">History</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_stats">Stats</string>
+    <string name="action_toggle_theme_cd">Toggle Dark Mode</string>
+    <string name="action_learn_cd">Learn about palindromes</string>
+    <string name="action_settings_cd">Open Settings</string>
+
+    <!-- Check History Screen -->
+    <string name="history_title">Check History</string>
+    <string name="history_search_hint">Search history…</string>
+    <string name="history_filter_all">All</string>
+    <string name="history_filter_palindromes">Palindromes</string>
+    <string name="history_filter_not_palindromes">Not Palindromes</string>
+    <string name="history_clear_all">Clear All</string>
+    <string name="history_delete_item_cd">Delete history entry</string>
+    <string name="history_empty_title">No checks saved yet</string>
+    <string name="history_empty_body">Words, numbers, and sentences you check will appear here so you can revisit or test them anytime.</string>
+    <string name="history_no_matches_title">No matching entries</string>
+    <string name="history_no_matches_body">Try clearing your search filter to view all saved checks.</string>
+    <string name="history_clear_dialog_title">Clear all history?</string>
+    <string name="history_clear_dialog_body">This will permanently remove all saved checks from your history and reset check statistics.</string>
+    <string name="dialog_confirm_clear">Clear All</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="category_word">Word</string>
+    <string name="category_number">Number</string>
+    <string name="category_sentence">Sentence</string>
+
+    <!-- Palindrome Quiz Screen -->
+    <string name="quiz_title">Palindrome Quiz</string>
+    <string name="quiz_subtitle">Can you spot which words, numbers, and sentences read the same backwards?</string>
+    <string name="quiz_question_counter">Question %1$d of %2$d</string>
+    <string name="quiz_score_label">Score: %1$d</string>
+    <string name="quiz_streak_label">Streak: %1$d</string>
+    <string name="quiz_best_label">Best: %1$d</string>
+    <string name="quiz_btn_yes">Yes, Palindrome</string>
+    <string name="quiz_btn_no">Not a Palindrome</string>
+    <string name="quiz_btn_next">Next Question</string>
+    <string name="quiz_btn_finish">View Results</string>
+    <string name="quiz_btn_play_again">Play Again</string>
+    <string name="quiz_correct_feedback">Correct! Great eye for symmetry.</string>
+    <string name="quiz_incorrect_feedback">Not quite! Check the mirrored reading below.</string>
+    <string name="quiz_complete_title">Quiz Complete!</string>
+    <string name="quiz_complete_score">You scored %1$d out of %2$d</string>
+    <string name="quiz_new_best_badge">New Best Score!</string>
+
+    <!-- Statistics Dashboard -->
+    <string name="stats_title">Statistics Dashboard</string>
+    <string name="stats_subtitle">Insights from your palindrome checks and quiz rounds</string>
+    <string name="stats_total_checks">Total Checks</string>
+    <string name="stats_palindromes_found">Palindromes</string>
+    <string name="stats_non_palindromes">Non-Palindromes</string>
+    <string name="stats_match_rate">Match Rate</string>
+    <string name="stats_categories_title">Checks by Category</string>
+    <string name="stats_quiz_title">Quiz Performance</string>
+    <string name="stats_best_score">Best Quiz Score</string>
+    <string name="stats_best_streak">Best Streak</string>
+    <string name="stats_highlights_title">Highlights</string>
+    <string name="stats_longest_palindrome">Longest Palindrome</string>
+    <string name="stats_none_yet">None yet</string>
+    <string name="stats_empty_note">Check a few words, numbers, or sentences to see your live breakdown chart.</string>
+
+    <!-- Learn About Palindromes -->
+    <string name="learn_title">Learn About Palindromes</string>
+    <string name="learn_hero_title">The Art of Reading Both Ways</string>
+    <string name="learn_hero_body">From ancient Greek wordplay ("palin dromos", meaning "running back again") to modern math and DNA sequences, palindromes appear everywhere.</string>
+    <string name="learn_try_example">Try in Checker</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance_section">Appearance</string>
+    <string name="settings_theme_label">Theme Mode</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_checker_section">Checker Preferences</string>
+    <string name="settings_ignore_punct_title">Ignore spaces &amp; punctuation</string>
+    <string name="settings_ignore_punct_subtitle">Treat phrases like "Madam, I\'m Adam" as palindromes by comparing letters and numbers only.</string>
+    <string name="settings_auto_voice_title">Auto-check after voice input</string>
+    <string name="settings_auto_voice_subtitle">Immediately check the spoken word or phrase as soon as voice recognition finishes.</string>
+    <string name="settings_data_section">Data &amp; Progress</string>
+    <string name="settings_clear_history_title">Clear check history</string>
+    <string name="settings_clear_history_subtitle">Remove all saved checks from your device</string>
+    <string name="settings_reset_quiz_title">Reset quiz high scores</string>
+    <string name="settings_reset_quiz_subtitle">Clear saved best quiz score and streak</string>
+    <string name="settings_quiz_reset_done">Quiz high scores reset</string>
+    <string name="settings_explore_section">Explore &amp; Info</string>
+    <string name="settings_learn_row">Learn About Palindromes</string>
+    <string name="settings_about_row">About Us &amp; Developers</string>
+
+    <!-- About Us Screen -->
+    <string name="about_title">About Us</string>
+    <string name="btn_back">Back</string>
+    <string name="back_home_cd">Back to previous screen</string>
+    <string name="about_project_title_upper">PALINDROME CHECKER</string>
+    <string name="about_project_description">The Palindrome Checker is an application that allows users to enter words, numbers or sentences and check whether they read the same forwards and backwards.</string>
+    <string name="about_team_image_cd">Illustration of the three project developers collaborating</string>
+    <string name="about_developers_heading">Project Developers</string>
+    <string name="about_developers_subheading">Meet the team behind Palindrome Checker</string>
+    <string name="dev_shadrack_name">Shadrack</string>
+    <string name="dev_shadrack_role">Core Architecture &amp; Logic</string>
+    <string name="dev_shadrack_bio">Designed the palindrome evaluation engine and state management for words, numbers, and sentences.</string>
+    <string name="dev_betty_name">Betty</string>
+    <string name="dev_betty_role">UI/UX &amp; Visual Design</string>
+    <string name="dev_betty_bio">Crafted the deep purple and light lavender Material 3 interface, typography, and accessible layouts.</string>
+    <string name="dev_julian_name">Julian</string>
+    <string name="dev_julian_role">Features &amp; Quality Assurance</string>
+    <string name="dev_julian_bio">Built interactive mirror feedback, validation safeguards, and comprehensive testing across devices.</string>
+    <string name="about_back_to_home_btn">Back to Home</string>
+</resources>

@@ -1,0 +1,6 @@
+{
+  "name": "Palindrome Checker",
+  "description": "A clean, modern Android app to check whether words, numbers, or sentences read the same forward and backward.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
